@@ -6,11 +6,13 @@ for (let i = 2; i < arr.length; i++) {
     if (arr[i] > max) {
         smax = max;
         max = arr[i]
-    } elseif(arr[i] > smax && max != arr[i])
-    smax = arr[i];
+    } else if (arr[i] > smax && max != arr[i]) {
+        smax = arr[i];
+    }
 
 
 
-} console.log("Second Max element is: " + Smax);
+
+} console.log("Second Max element is: " + smax);
 
 

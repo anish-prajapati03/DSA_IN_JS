@@ -17,7 +17,7 @@ console.log("Sum is:" + sum);*/
 
 // Print the max element of the array
 
-let arr = [1, 4, 3, 6, 2, 8, 7, 9,];
+let arr = [1, 4, 3, 6, 2, 8, 7, 9];
 let max = arr[0];
 for (let i = 1; i < arr.length; i++) {
     if (max < arr[i]) {
