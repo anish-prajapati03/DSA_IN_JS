@@ -1,6 +1,10 @@
 // Greate than 100 in arr
+/*const arr = [20,45,150,30,2,9];
+const hasBig = arr.some(x=>x>100)
+console.log(hasBig);*/ // O/P True
+
 /*
-const arr = [20,45,150,30,,2,9];
+const arr = [20,45,150,30,2,9];
 let result=arr.filter(num=>num%2===0)
 console.log(result)*/
 
